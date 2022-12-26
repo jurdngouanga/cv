@@ -1,0 +1,169 @@
+body{
+    background-image:linear-gradient(#636162, #b1afaf);
+    font-weight: bold;
+    height: 133vh;
+    
+    
+}
+*{
+    margin: 0; padding: 0px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.main{
+    background-color: white;
+    height: 100%;
+    
+    position: absolute;
+    width: 650px;
+    left: 30%;
+    top: 10%;
+    right: 70%;
+    height: 820px;
+    display: inline;
+    border-radius: 3px;
+    
+    
+}
+.gauche{
+    background-color: darkorange;
+    height: 100%;
+    width: 250px;
+    float: left;
+}
+
+.image_profil{
+    height: 180px;
+    width: 140px;
+    background-color: #ddd;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px 0px black;
+    justify-content: center;
+}
+.image_profil img{
+    border-radius: 50%;
+    width: 100%;
+}
+.bloc-1{
+    position: relative;
+}
+.entete{
+    background-color: #4d4d4d;
+    padding: 10px;
+    
+    /*box-shadow: 10px 2px 15px white;*/
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: -5px;
+    
+}
+.entete::after{
+    content: "";
+    position: absolute;
+    width: 18px;
+    background-color: #5a5959;
+    left: 100px;
+    background-color: darkgray;
+    transform: rotate( 56deg );
+    z-index: -2;
+}
+.P1{
+    padding: 2px;
+    font-size: 15px;
+}
+.contenaire-competence{
+    background-color:#5a5959 ;
+    width: 90%;
+    text-align: right;
+    border-radius: 5px;
+}
+.comptence{
+    padding: 2px;
+    
+}
+.html{
+    background-color: white;
+    width: 85%;
+    border-radius: 5px;
+    
+}
+.css{
+    background-color: white;
+    width: 70%;
+    border-radius: 5px;
+}
+.java{
+    background-color: white;
+    width: 60%;
+    border-radius: 5px;
+}
+.js{
+    background-color: white;
+    width: 65%;
+    border-radius: 5px;
+}
+
+.droite{
+ 
+    float: right;
+    height: 100%;
+    width: 395px;
+    
+    
+    
+}
+.droite p, h2{
+    text-align: center;
+}
+.droite h2{
+    font-size: 20px;
+}
+.etudiant{
+    margin-top: 5px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.monid{
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.entete2{
+    
+    padding: 10px;
+    
+    /*box-shadow: 1x 25px 0px white;*/
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-bottom: 2px solid black;
+   
+    
+}
+.bloc-2{
+    height: 100%;
+    padding: 5px;
+}
+p{
+    font-size: 25px;
+}
+.email{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.contact{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    
+}
+.contacte{
+    margin-top: 5px;
+}
+
